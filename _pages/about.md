@@ -14,4 +14,4 @@ I am a PhD student in the [Department of Atmospheric Sciences](https://atmo.tamu
 
 News
 ======
-* 2017-09-01: I am starting my PhD at Texas A&M University.
+* 2017-08: I am starting my PhD at Texas A&M University.
