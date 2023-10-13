@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D. in Atmospheric Sciences, Texas A&M University, 2024 (expected)
-* M.S. in Computer Science, Georgia Institute of Technology, 2022
+* M.S. in Computer Science, Georgia Institute of Technology, 2022 (online)
 * M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
 * B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
 
