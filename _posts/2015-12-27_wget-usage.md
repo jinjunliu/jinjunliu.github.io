@@ -7,11 +7,13 @@ tags:
     - Wget
 ---
 
-## Introduction to Wget
+Introduction to Wget
+====================
 
 `Wget` (short for GNU Wget) is a free software that allows you to download files using the HTTP, HTTPS, and FTP protocols. It is a non-interactive command-line tool, making it easy to invoke from scripts or terminals without requiring X-window support. For detailed information, refer to the [Wget official website](http://www.gnu.org/software/wget/wget.html). Wget is particularly useful for batch downloading data.
 
-## Installing Wget on Linux
+Installing Wget on Linux
+========================
 
 Most Linux distributions come with Wget pre-installed. If it's not installed, you can use the following commands to install it:
 
@@ -27,7 +29,8 @@ For CentOS/RHEL/Fedora:
 sudo yum install wget
 ```
 
-## Using Wget
+Using Wget
+==========
 
 The usage of Wget is `wget [options]... [URL]...`:
 
@@ -37,9 +40,11 @@ Usage: wget [OPTION]... [URL]...
 
 You can use the `wget -h` command to view the available options.
 
-## Examples of Using Wget
+Examples of Using Wget
+======================
 
-### Downloading all files from a file list
+Downloading all files from a file list
+--------------------------------------
 
 For example, suppose you have a file list named `filelist.txt` with the following content:
 
@@ -59,7 +64,8 @@ wget -c -N -i filelist.txt
 
 This command will download all the files listed in the file list. The `-c` and `-N` options ensure that if the download is interrupted, you can resume it by running the command again.
 
-### Downloading one or multiple directories
+Downloading one or multiple directories
+---------------------------------------
 
 For example, if you want to download data from the following FTP address: ftp://n5eil01u.ecs.nsidc.org/SAN/AMSA/AE\_L2A.003/, and upon opening it, you find the following directory structure:
 
@@ -102,13 +108,15 @@ Here is the explanation of the options used:
 |  -p   |  Download all files necessary to display the webpage |
 |  -A   |  Specify a comma-separated list of file name suffixes to accept |
 
-## Using Wget on Windows
+Using Wget on Windows
+=====================
 
 To use Wget on Windows, download `wget.exe` (for 32-bit or 64-bit systems) or `wget64.exe` (for 64-bit systems) from [Wget for Windows](https://eternallybored.org/misc/wget/). Place `wget.exe` in the directory `C:\Windows\System32`. If you downloaded `wget64.exe`, rename it to `wget.exe`.
 
 In the directory where you want to download files, hold the `Shift` key and right-click. Then select "Open command window here." This will allow you to use Wget in the Windows terminal, using the same commands as in Linux.
 
-## References
+References
+==========
 
 -  <http://blog.csdn.net/endall/article/details/1571220>
 -  <http://blog.chinaunix.net/uid-16318340-id-2748668.html>
