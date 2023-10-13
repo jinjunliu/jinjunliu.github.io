@@ -7,6 +7,11 @@ tags:
   - Wget
 ---
 
+This post records some examples of using Wget to download data from FTP sites.
+
+Introduction
+============
+
 `Wget` (short for GNU Wget) is a free software that allows you to download files using the HTTP, HTTPS, and FTP protocols. It is a non-interactive command-line tool, making it easy to invoke from scripts or terminals without requiring X-window support. For detailed information, refer to the [Wget official website](http://www.gnu.org/software/wget/wget.html). Wget is particularly useful for batch downloading data.
 
 Installing Wget on Linux
