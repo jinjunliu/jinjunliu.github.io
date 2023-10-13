@@ -20,27 +20,27 @@ Work experience
 ======
 * 2017-Now: Research Assistant
   * Texas A&M University
-  * Duties included: radiative transfer model; Characteristics of large‑scale environmental variables and climate variability related to tropical cyclones in different climates; Tropical cyclones properties (e.g., rapid intensification, post-tropical cyclone ocean mixing) in high‑resolution global climate model simulation and downscaled datasets.
+  * Researches: radiative transfer model; Characteristics of large‑scale environmental variables and climate variability related to tropical cyclones in different climates; Tropical cyclones properties (e.g., rapid intensification, post-tropical cyclone ocean mixing) in high‑resolution global climate model simulation and downscaled datasets.
   * Supervisor: Dr. Ping Yang (2017-2019), Dr. Robert Korty (2019-Now)
 
 * 2014-2017: Research Assistant
   * University of Science and Technology of China
-  * Duties included: Microwave remote sensing; radiative transfer.
+  * Researches: Microwave remote sensing; radiative transfer.
   * Supervisor: Dr. Rui Li
   
 Skills
 ======
 * Python
-  * Data preprocessing and analysis using xarray, numpy, pandas, matplotlib, cartopy, etc.
-  * Machine learning techniques using PyTorch, TensorFlow, scipy, etc.
+  * Data preprocessing and analysis using xarray, numpy, pandas, matplotlib, cartopy, scipy, etc.
+  * Machine learning techniques using PyTorch, TensorFlow, scikit-learn, etc.
 * Various weather and climate data precossing tools and languages
   * NCL, GrADS, IDL, Fortran, etc.
 * Linux and HPC
   * Bash, Slurm, PBS, docker, etc.
-* Collaboration
+* Collaboration and version control
   * Git, GitHub, etc.
-* Programming
-  * C, C++, Java, etc.
+* Programming languages
+  * C, Java, etc.
 * Others
   * LaTeX, Markdown, etc.
 
@@ -59,6 +59,12 @@ Talks
 Teaching
 ======
   <ul>{% for post in site.teaching %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+Projects
+======
+  <ul>{% for post in site.projects %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
