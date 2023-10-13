@@ -18,7 +18,7 @@ Python is a cross-platform object-oriented scripting language that can run on pl
 
 Different projects may require different Python versions and libraries, and Python libraries may also depend on each other, with specific version requirements. If all projects use the same Python environment, the environment will become messy and difficult to maintain when there are many projects. For example, project A requires `Python 3.6` and `Pandas 1.0.1`, and project B requires `Python 3.10` and `Pandas 1.3.5`. Although Python interpreters and many Python libraries are backward compatible with themselves, lower versions of Python may not support higher versions of third-party libraries. Therefore, we need to separate the Python environments of these projects so that each project can run independently. The following image (from dataquest.io) shows a simple example of a virtual Python environment: three Python environments are independent of each other and do not affect each other. When one of the Python environments is operated on (such as installing or deleting a library, upgrading a library version), the other two Python environments will not be affected.
 
-![Python Virtual Environment Example](https://objectstorage.us-sanjose-1.oraclecloud.com/n/axfhiko9vzov/b/bucket-1/o/blog_images%2Fpython-virtual-envs-example.png)
+![Python Virtual Environment Example](/figures/posts/2022-05-python-env-manage-1.png)
 
 ## Python Environment Management Tools
 
