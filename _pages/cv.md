@@ -11,9 +11,10 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
+* M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
+* M.S. in Computer Science, Georgia Institute of Technology, 2022
+* Ph.D in Atmospheric Sciences, Texas A&M University, 2024 (expected)
 
 Work experience
 ======
