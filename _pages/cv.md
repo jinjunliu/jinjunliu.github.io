@@ -11,31 +11,38 @@ redirect_from:
 
 Education
 ======
-* B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
-* M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
-* M.S. in Computer Science, Georgia Institute of Technology, 2022
 * Ph.D in Atmospheric Sciences, Texas A&M University, 2024 (expected)
+* M.S. in Computer Science, Georgia Institute of Technology, 2022
+* M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
+* B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2017-Now: Research Assistant
+  * Texas A&M University
+  * Duties included: radiative transfer model; Characteristics of large‑scale environmental variables and climate variability related to tropical cyclones in different climates; Tropical cyclones properties (e.g., rapid intensification, post-tropical cyclone ocean mixing) in high‑resolution global climate model simulation and downscaled datasets.
+  * Supervisor: Dr. Robert Korty
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2014-2017: Research Assistant
+  * University of Science and Technology of China
+  * Duties included: Microwave remote sensing; radiative transfer.
+  * Supervisor: Dr. Rui Li
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Python
+  * Data preprocessing and analysis using xarray, numpy, pandas, matplotlib, cartopy, etc.
+  * Deep learning techniques using PyTorch, TensorFlow, scipy, etc.
+* Various weather and climate data precossing tools and languages
+  * NCL, GrADS, IDL, Fortran, etc.
+* Linux and HPC
+  * Bash, Slurm, PBS, docker, etc.
+* Collaboration
+  * Git, GitHub, etc.
+* Programming
+  * C, C++, Java, etc.
+* Others
+  * LaTeX, Markdown, etc.
 
 Publications
 ======
@@ -57,4 +64,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* AGU and AMS member
