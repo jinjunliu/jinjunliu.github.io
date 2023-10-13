@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Atmospheric Sciences, Texas A&M University, 2024 (expected)
+* Ph.D. in Atmospheric Sciences, Texas A&M University, 2024 (expected)
 * M.S. in Computer Science, Georgia Institute of Technology, 2022
 * M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
 * B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
@@ -21,7 +21,7 @@ Work experience
 * 2017-Now: Research Assistant
   * Texas A&M University
   * Duties included: radiative transfer model; Characteristics of large‑scale environmental variables and climate variability related to tropical cyclones in different climates; Tropical cyclones properties (e.g., rapid intensification, post-tropical cyclone ocean mixing) in high‑resolution global climate model simulation and downscaled datasets.
-  * Supervisor: Dr. Robert Korty
+  * Supervisor: Dr. Ping Yang (2017-2019), Dr. Robert Korty (2019-Now)
 
 * 2014-2017: Research Assistant
   * University of Science and Technology of China
