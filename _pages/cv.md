@@ -23,7 +23,7 @@ Work experience
 * 2017-Now: Research Assistant
   * Texas A&M University
   * Researches: radiative transfer model; Characteristics of large‑scale environmental variables and climate variability related to tropical cyclones in different climates; Tropical cyclones properties (e.g., rapid intensification, post-tropical cyclone ocean mixing) in high‑resolution global climate model simulation and downscaled datasets.
-  * Supervisor: Dr. Ping Yang (2017-2019), Dr. Robert Korty (2019-Now)
+  * Supervisor: [Dr. Ping Yang](https://atmo.tamu.edu/people/profiles/faculty/yangping.html) (2017-2019), [Dr. Robert Korty](https://atmo.tamu.edu/people/profiles/faculty/kortyrobert.html) (2019-Now)
 
 * 2014-2017: Research Assistant
   * University of Science and Technology of China
