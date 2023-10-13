@@ -32,7 +32,7 @@ Skills
 ======
 * Python
   * Data preprocessing and analysis using xarray, numpy, pandas, matplotlib, cartopy, etc.
-  * Deep learning techniques using PyTorch, TensorFlow, scipy, etc.
+  * Machine learning techniques using PyTorch, TensorFlow, scipy, etc.
 * Various weather and climate data precossing tools and languages
   * NCL, GrADS, IDL, Fortran, etc.
 * Linux and HPC
