@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+Download PDF version CV [here](/files/resume_jliu.pdf).
+
 Education
 ======
 * Ph.D. in Atmospheric Sciences, Texas A&M University, 2024 (expected)
