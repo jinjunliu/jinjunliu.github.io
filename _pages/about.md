@@ -16,5 +16,5 @@ Contact: jjliu [at] tamu [dot] edu
 
 News
 ======
-
+* 2018-05: I passed my PhD qualifying exam.
 * 2017-08: I am starting my PhD at Texas A&M University.
