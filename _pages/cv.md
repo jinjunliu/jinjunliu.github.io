@@ -30,17 +30,17 @@ Work experience
   
 Skills
 ======
-* Python
-  * Data preprocessing and analysis using xarray, numpy, pandas, matplotlib, cartopy, scipy, etc.
-  * Machine learning techniques using PyTorch, TensorFlow, scikit-learn, etc.
-* Various weather and climate data precossing tools and languages
-  * NCL, GrADS, IDL, Fortran, etc.
+* Programming languages
+  * Python
+    * Data preprocessing and analysis using xarray, numpy, pandas, matplotlib, cartopy, scipy, etc.
+    * Machine learning techniques using PyTorch, TensorFlow, scikit-learn, etc.
+  * Other weather and climate data processing tools and languages
+    * NCL, GrADS, IDL, etc.
+  * C, Java, etc.
 * Linux and HPC
   * Bash, Slurm, PBS, docker, etc.
 * Collaboration and version control
   * Git, GitHub, etc.
-* Programming languages
-  * C, Java, etc.
 * Others
   * LaTeX, Markdown, etc.
 
