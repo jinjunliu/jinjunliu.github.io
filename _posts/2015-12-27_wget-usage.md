@@ -1,10 +1,10 @@
 ---
-title: "Example of Using Wget"
+title: 'Example of Using Wget'
 date: 2015-12-27
 permalink: /posts/2015/12/wget-usage/
 tags:
-    - Linux
-    - Wget
+  - Linux
+  - Wget
 ---
 
 `Wget` (short for GNU Wget) is a free software that allows you to download files using the HTTP, HTTPS, and FTP protocols. It is a non-interactive command-line tool, making it easy to invoke from scripts or terminals without requiring X-window support. For detailed information, refer to the [Wget official website](http://www.gnu.org/software/wget/wget.html). Wget is particularly useful for batch downloading data.
