@@ -1,7 +1,7 @@
 ---
 title: "Spring 2022"
 collection: teaching
-type: "Workshop"
+type: "Undergraduate course"
 permalink: /teaching/2022-spring-teaching-2
 venue: "Texas A&M University, Department of Atmospheric Sciences"
 date: 2022-01-02
