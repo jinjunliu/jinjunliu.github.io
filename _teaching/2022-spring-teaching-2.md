@@ -1,5 +1,5 @@
 ---
-title: "Spring 2022"
+title: "Spring 2022: ATMO 202"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-spring-teaching-2
