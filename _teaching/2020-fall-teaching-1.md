@@ -1,5 +1,5 @@
 ---
-title: "Fall 2020"
+title: "Fall 2020: ATMO 202 and ATMO 363"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2020-fall-teaching-1
