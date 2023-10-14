@@ -5,7 +5,7 @@ permalink: /publication/2018-04-microwave-snow-tibet-plateau-1
 excerpt: 'This paper investigate the impacts of atmosphere to passive microwave retrieval of snow depth over Qinghai-Tibetan Plateau.'
 date: 2018-04-01
 venue: 'Plateau Meteorology'
-paperurl: '/files/paper/2018-04-microwave-snow-tibet-plateau-1.pdf'
+paperurl:
 citation: 'Liu Jinjun, Fu Yunfei, Li Rui, et al. 2018. The Influence of Atmosphere to Passive Microwave Retrieval of Snow Depth over Qinghai-Tibetan Plateau[J]. Plateau Meteorology, 37(2): 305-316. DOI: 10.7522/j.issn.1000-0534.2017.00050.'
 ---
 
