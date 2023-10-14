@@ -2,7 +2,7 @@
 title: "The Influence of Atmosphere to Passive Microwave Retrieval of Snow Depth over Qinghai-Tibetan Plateau"
 collection: publications
 permalink: /publication/2018-04-microwave-snow-tibet-plateau-1
-excerpt:
+excerpt: 'This paper investigate the impacts of atmosphere to passive microwave retrieval of snow depth over Qinghai-Tibetan Plateau.'
 date: 2018-04-01
 venue: 'Plateau Meteorology'
 paperurl: '/files/paper/2018-04-microwave-snow-tibet-plateau-1.pdf'
