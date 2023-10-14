@@ -7,7 +7,7 @@ tags:
   - CentOS
 ---
 
-This article documents some considerations during the installation of CentOS and provides instructions for post-installation setup, including software installation. It may be of reference value for creating a Linux research environment suitable for *atmospheric science*.
+This post documents some considerations during the installation of CentOS and provides instructions for post-installation setup, including software installation. It may be of reference value for creating a Linux research environment suitable for *atmospheric science*.
 
 **Caution: this post was written in 2016, and some of the content may be out of date.**
 
