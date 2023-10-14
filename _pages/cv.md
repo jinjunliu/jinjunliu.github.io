@@ -18,7 +18,7 @@ Education
 * M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
 * B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
 
-Work experience
+Experience
 ======
 * 2017-Now: Research Assistant
   * Texas A&M University
