@@ -34,9 +34,9 @@ Either of these two tools can be chosen, but I prefer to use `conda` for version
 
 To use conda, you first need to install `Anaconda` or `Miniconda`. The difference between the two is that `Anaconda` is a complete environment that includes the Python interpreter and all commonly used third-party libraries (such as commonly used `numpy`, `pandas`, `matplotlib`, etc.), while `Miniconda` only includes the Python interpreter and does not include any third-party libraries. This can save disk space, and it also comes with conda, which allows you to install environments and packages according to your needs. For novice users, it is recommended to install `Anaconda`.
 
-Anaconda download link: [https://www.anaconda.com/](https://www.anaconda.com/)
+Anaconda download link: https://www.anaconda.com/download/
 
-Miniconda download link: [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
+Miniconda download link: https://docs.conda.io/en/latest/miniconda.html
 
 Simply select the installation package corresponding to the operating system. It is recommended to install the 64-bit version. After installation, when you open a command prompt window, a default environment called `base` will be automatically launched. This environment is the default environment of `Anaconda` or `Miniconda`. If you don't want `base` to be automatically launched every time, you can run the following command in the command prompt window:
 
