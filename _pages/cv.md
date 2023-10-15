@@ -42,7 +42,7 @@ Skills
 * Linux and HPC
   * Bash, Slurm, PBS, docker, etc.
 * Collaboration and version control
-  * Git, GitHub, etc.
+  * Git, GitHub, CI/CD, etc.
 * Web development
   * HTML, CSS, JavaScript, etc.
 * Others
