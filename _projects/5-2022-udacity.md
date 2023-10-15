@@ -21,4 +21,4 @@ I use concurrent programming to improve a legacy web crawler, making it multi-co
 
 ## Project 3: UdaSecurity
 
-developed a GUI application (UdaSecurity) to manage home security systems. To improve its scalability, I restructured it into a multi-module Maven project and incorporated unit tests using JUnit 5 and Mockito libraries. The program has been thoroughly tested and functions as intended.
+I developed a GUI application (UdaSecurity) to manage home security systems. To improve its scalability, I restructured it into a multi-module Maven project and incorporated unit tests using JUnit 5 and Mockito libraries. The program has been thoroughly tested and functions as intended.
