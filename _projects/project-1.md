@@ -1,7 +1,11 @@
 ---
-title: "Projects item number 1"
-excerpt: "Short description of projects item number 1<br/><img src='/images/500x300.png'>"
+title: "ML Methods to Predict House Prices in Los Angeles (Data and Visual Analytics)"
+excerpt: "Various machine learning methods to predict house prices in LA.<br/><img src='/figures/projects/2019-spring-ml-to-predict-LA-house-prices-1.png'>"
 collection: projects
 ---
 
-This is an item in your projects. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+We developed an accurate house price prediction model in the Los Angeles area with the integration of multiple community/environmental data and local economic indicators. We used various machine learning methods (e.g., support vector, random forest, etc) to make the prediction, and results were visualized on a map.
+
+Related course: [CSE 6242: Data and Visual Analytics](https://omscs.gatech.edu/cse-6242-data-visual-analytics), Spring 2019
+
+Download project poster [here](/files/projects/2019-DVA-project-poster.pdf).
