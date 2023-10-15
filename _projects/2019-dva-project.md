@@ -1,5 +1,5 @@
 ---
-title: "ML Methods to Predict House Prices in Los Angeles (Data and Visual Analytics)"
+title: "ML Methods to Predict House Prices in Los Angeles"
 excerpt: "Various machine learning methods to predict house prices in LA.<br/><img src='/figures/projects/2019-spring-ml-to-predict-LA-house-prices-1.png'>"
 collection: projects
 ---
