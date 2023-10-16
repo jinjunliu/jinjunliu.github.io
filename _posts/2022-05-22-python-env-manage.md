@@ -94,6 +94,20 @@ conda activate my_env
 
 to activate the `my_env` environment, and then run the above command to install the `numpy` package in the `my_env` environment.
 
+`conda`'s abilities of managing environment is not limited to Python. You can also create environments for other languages, such as NCAR Command Language (NCL), R, etc. For example, to create an environment for NCL, you can run:
+
+```bash
+conda create -n ncl_stable -c conda-forge ncl
+```
+
+This will create an environment named `ncl_stable` and install the `ncl` package in the environment. To activate the environment, run:
+
+```bash
+conda activate ncl_stable
+```
+
+This is all you need to do to install NCL with conda (so convenient!). Using conda to install NCL is also the recommended way by the NCL official website. For more information, please refer to the [NCL installation documentation](https://www.ncl.ucar.edu/Download/conda.shtml).
+
 For more package management commands, please refer to conda's [official package management documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-pkgs.html).
 
 ### venv
