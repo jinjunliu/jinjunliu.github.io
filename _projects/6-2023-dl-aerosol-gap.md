@@ -1,6 +1,6 @@
 ---
 title: "Deep Learning for Filling Aerosol Data Gaps"
-excerpt: "A ConvLSTM model to fill aerosol data gaps hampered by clouds.<br/><img src='/figures/projects/2023-dl-aerosol-1.png' width=500>"
+excerpt: "A ConvLSTM model to fill aerosol data gaps caused by clouds.<br/><img src='/figures/projects/2023-dl-aerosol-1.png' width=500>"
 collection: projects
 ---
 
