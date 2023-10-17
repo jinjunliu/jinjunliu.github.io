@@ -185,4 +185,4 @@ In addition to the links mentioned in the article, other references are as follo
 
 ## Notes
 
-This blog is originally written in Chinese. The English version is translated by `ChatGPT`. If you find any errors in the translation, please let me know. Thank you!
+This blog is originally written in Chinese. The English version is translated by `ChatGPT`.
