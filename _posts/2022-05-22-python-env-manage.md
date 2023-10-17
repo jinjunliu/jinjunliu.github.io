@@ -8,7 +8,7 @@ tags:
   - venv
 ---
 
-This post mainly introduces how to use `conda` and `venv` to manage Python environments.</br><img src='/figures/posts/head-pics/2022-05-python-env-manage-by-DALLE-3.png'>
+This post mainly introduces how to use `conda` and `venv` to manage Python environments.<img src='/figures/posts/head-pics/2022-05-python-env-manage-by-DALLE-3.png' width=500>
 
 ## What is a Python Environment
 
