@@ -17,4 +17,5 @@ Preliminary results
 ===================
 
 ![ConvLSTM aerosol prediction](/figures/projects/2023-dl-aerosol-1.png)
-<p style="text-align: center;">This figure depicts the aerosol optical depth (AOD) at various time steps. In our ConvLSTM model, we utilize six frames as input and six frames as output. The first row represents the input data, the second row displays the ground truth, and the third row shows the model's predictions.</p>
+
+This figure depicts the aerosol optical depth (AOD) at various time steps. In our ConvLSTM model, we utilize six frames as input and six frames as output. The first row represents the input data, the second row displays the ground truth, and the third row shows the model's predictions.
