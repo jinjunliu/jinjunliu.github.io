@@ -9,8 +9,11 @@ main:
   - title: "Teaching"
     url: /teaching/    
 
-  - title: "Projects"
-    url: /projects/
+  - title: "Atmospheric Science"
+    url: /atmo-projects/
+
+  - title: "CS Projects"
+    url: /cs-projects/
 
   - title: "CV"
     url: /cv/
