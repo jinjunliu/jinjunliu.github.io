@@ -1,0 +1,14 @@
+---
+layout: archive
+title: "Atmospheric Sciences Projects"
+permalink: /atmo-projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p style="text-align:justify">Alongside my primary focus on atmospheric sciences, I have a keen interest in computer science, with a particular passion for Machine Learning. My journey through the <a href="https://omscs.gatech.edu/home">OMSCS program at Georgia Tech</a> has led me to complete a series of impactful projects. I firmly believe that acquiring expertise in programming skills and cutting-edge technologies in Machine Learning, and applying them to my future research, will enable us to develop innovative solutions to address the pressing challenges posed by climate change.</p>
+
+{% for post in site.projects reversed %}
+  {% include archive-single.html %}
+{% endfor %}
