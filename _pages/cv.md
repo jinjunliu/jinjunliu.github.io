@@ -14,7 +14,7 @@ Download PDF version CV [here](/files/resume_jliu.pdf).
 Education
 ======
 * Ph.D. in Atmospheric Sciences, Texas A&M University, 2024 (expected)
-* M.S. in Computer Science, Georgia Institute of Technology, 2022 (online)
+* M.S. in Computer Science, Georgia Institute of Technology, 2022
 * M.S. in Atmospheric Physics and Environment, University of Science and Technology of China, 2017
 * B.S. in Atmospheric Sciences, University of Science and Technology of China, 2014
 
@@ -23,13 +23,13 @@ Experience
 * 2017-Now: Research Assistant
   * Texas A&M University
   * Researches: radiative transfer model; Characteristics of large‑scale environmental variables and climate variability related to tropical cyclones in different climates; Tropical cyclones properties (e.g., rapid intensification, post-tropical cyclone ocean mixing) in high‑resolution global climate model simulation and downscaled datasets.
-  * Supervisor: [Dr. Ping Yang](https://atmo.tamu.edu/people/profiles/faculty/yangping.html) (2017-2019), [Dr. Robert Korty](https://atmo.tamu.edu/people/profiles/faculty/kortyrobert.html) (2019-Now)
+  * Supervisors: [Dr. Ping Yang](https://atmo.tamu.edu/people/profiles/faculty/yangping.html), [Dr. Robert Korty](https://atmo.tamu.edu/people/profiles/faculty/kortyrobert.html)
 
 * 2014-2017: Research Assistant
   * University of Science and Technology of China
   * Researches: Microwave remote sensing; radiative transfer.
   * Supervisor: Dr. Rui Li
-  
+
 Skills
 ======
 * Programming languages
