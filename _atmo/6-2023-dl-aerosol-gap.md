@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning for Filling Aerosol Data Gaps"
 excerpt: "A ConvLSTM model for filling aerosol data gaps in the presence of cloud coverage.<br/><img src='/figures/projects/2023-dl-aerosol-1.png' width=500>"
-collection: projects
+collection: atmo
 ---
 
 I am currently working on a project to fill missing aerosol data using a ConvLSTM model. This work will be presenting at the [2024 American Meteorological Society Annual Meeting](https://annual.ametsoc.org/index.cfm/2024/) in Baltimore, Maryland. The project is still in progress. The following is a brief introduction to the project.

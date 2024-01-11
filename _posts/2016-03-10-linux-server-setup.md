@@ -2,6 +2,7 @@
 title: "Installation and Setup of CentOS Linux Server"
 date: 2016-03-10
 permalink: /posts/2016-03-linux-server-setup/
+collection: posts
 tags:
   - Linux
   - CentOS

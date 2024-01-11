@@ -2,6 +2,7 @@
 title: "Python Environment Management"
 date: 2022-05-22
 permalink: /posts/2022-05-python-env-manage/
+collection: posts
 tags:
   - Python
   - conda
@@ -42,9 +43,9 @@ Miniconda download link: https://docs.conda.io/en/latest/miniconda.html
 
 Simply select the installation package corresponding to the operating system. It is recommended to install the 64-bit version. After installation, when you open a command prompt window, a default environment called `base` will be automatically launched. This environment is the default environment of `Anaconda` or `Miniconda`. If you don't want `base` to be automatically launched every time, you can run the following command in the command prompt window:
 
-{% highlight bash %}
+```bash
 conda config --set auto_activate_base false
-{% endhighlight %}
+```
 
 View all conda environments:
 

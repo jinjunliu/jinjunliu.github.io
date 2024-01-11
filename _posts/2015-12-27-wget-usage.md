@@ -2,6 +2,7 @@
 title: 'Example of Using Wget'
 date: 2015-12-27
 permalink: /posts/2015-12-wget-usage/
+collection: posts
 tags:
   - Linux
   - Wget
