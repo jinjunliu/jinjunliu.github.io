@@ -170,7 +170,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  enable_coderay: true
 
 
 # Collections
@@ -190,7 +190,9 @@ collections:
   atmo:
     output: true
     permalink: /:collection/:path/
-
+  posts:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
