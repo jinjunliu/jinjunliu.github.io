@@ -59,7 +59,10 @@
     {% elsif post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
-
+    
+    {% if post.collection == 'posts' %}
+    <script src="/assets/js/codebutton.js"></script>
+    {% endif %}
 
   </article>
 </div>
