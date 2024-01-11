@@ -186,3 +186,15 @@ In addition to the links mentioned in the article, other references are as follo
 ## Notes
 
 This blog is originally written in Chinese. The English version is translated by `ChatGPT`.
+
+### test
+
+{% highlight javascript %}
+function sayHello(name) {
+  if (!name) {
+    console.log('Hello World');
+  } else {
+    console.log(`Hello ${name}`);
+  }  
+}  
+{% endhighlight %}
