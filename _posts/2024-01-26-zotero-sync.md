@@ -43,7 +43,7 @@ Zotero提供了一键迁移Mendeley文献库的功能，只需要点击Zotero的
 
 也就是用ZotFile插件，将附件文件（也就是文献的PDF文件）转移到一个云盘在本地的文件夹，该文件夹便会使用云盘自动进行同步。然后ZotFile会自动设置链接指向这些外部文件，这样便实现了文献库元数据（例如文献的标题，作者，DOI等）和附件的分离，元数据存储在Zotero服务器上，附件存储在云盘上。元数据的大小远远小于附件的大小，使用Zotero服务器是完全够用的。
 
-这里我使用的是OneDrive来同步附件，因为我已经和人合租了Office 365 Family，OneDrive的存储空间是1TB，足够使用了。如果你使用的是其他的云存储，比如iCloud，Google Drive，Dropbox等，也是可以的，方法是一样的。
+这里我使用的是OneDrive来同步附件，因为我已经和人合租了Office 365 Family，OneDrive的存储空间是1TB，足够使用了。如果你使用的是其他的云存储，比如iCloud，Google Drive，Dropbox等，方法也是一样的。
 
 ## 下载安装ZotFile
 
@@ -59,11 +59,11 @@ ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)�
 
 在`General Settings`中，设置`Source Folder for Attaching New Files`为你的下载文件夹，如`C:\Users\username\Downloads`，这一步是为了方便以后将下载的文献PDF文件转移到云盘文件夹中。这样，如果你选中一篇文献，右键并选择`attach new file`，ZotFile会自动将该文献的PDF文件从下载文件夹转移到云盘文件夹中，并且自动设置链接指向云盘文件夹中的文件。
 
-然后设置`Location of Files`为你的云盘文件夹，这里我设置为`C:\Users\username\OneDrive\Zotero`，其中`username`是你的Windows用户名。`Zotero`文件夹是我在OneDrive中新建的，用于存储文献附件。
+然后设置`Location of Files`为你的云盘文件夹，这里我设置为`C:\Users\username\OneDrive\Zotero`，其中`username`是Windows用户名。`Zotero`文件夹是我在OneDrive中新建的，用于存储文献附件。如果是Mac，目录结构应该是类似`/Users/username/OneDrive/Zotero`。
 
 ## 转移文献附件
 
-这时候，已经在文献库中的文献附件还没有转移到云盘的Zotero文件夹中，首次转移需要手动进行。在Zotero点击左侧的My Library，按`ctrl+A`全选文献，然后点击右键，选择`Manage Attachments`->`Rename and Move`，等待几分钟，所有的文献附件就会转移到云盘的Zotero文件夹（这里是`C:\Users\username\OneDrive\Zotero`）中了。并且还根据统一规则重新命名了附件（重命名规则也可以在ZotFile的设置中设置，这里我没有改动）。
+这时候，已经在文献库中的文献附件还没有转移到云盘的Zotero文件夹中，首次转移需要手动进行。在Zotero点击左侧的My Library，按`ctrl+A`（Mac下按`command+A`）全选文献，然后点击右键，选择`Manage Attachments`->`Rename and Move`，等待几分钟，所有的文献附件就会转移到云盘的Zotero文件夹（这里是`C:\Users\username\OneDrive\Zotero`）中了。并且还根据统一规则重新命名了附件（重命名规则也可以在ZotFile的设置中设置，这里我没有改动），看上去非常整洁。
 
 ## 设置Zotero的附件文件夹
 
@@ -75,7 +75,7 @@ ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)�
 
 ## Purge Storage in My Library
 
-完成上述步骤后，理论上Zotero的文献附件应该全部转移到了云盘中，但如果点击右上角的同步按钮，还是会有警告。这是因为Zotero的服务器上还有一些文献附件，需要手动删除（这可能是同步的一个bug）。这时需要到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，点击`Purge Storage in My Library`，然后再回到Zotero客户端，点击右上角的同步按钮，这时候就不会有警告了。
+完成上述步骤后，理论上Zotero的文献附件应该全部转移到了云盘中，但如果点击右上角的同步按钮，还是会有警告。这是因为Zotero的服务器上还有一些文献附件，需要手动删除（这可能是一个bug）。这时需要到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，点击`Purge Storage in My Library`。然后再回到Zotero客户端，点击`Edit`->`Preferences`->`Sync`，点击`Reset`，并选择`Replace Online Library`。这时候再点击右上角的同步按钮，就不会有警告了。
 
 ## 在其他电脑上同步
 
