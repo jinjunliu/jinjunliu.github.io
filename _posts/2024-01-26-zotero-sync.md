@@ -1,6 +1,6 @@
 ---
 title: "Zetero使用非官方云存储同步文献库"
-date: 2024-01-20
+date: 2024-01-26
 permalink: /posts/2024-01-26-zotero-sync/
 collection: posts
 tags:
@@ -27,7 +27,7 @@ Zotero的官网是[zotero.org](https://www.zotero.org/)，在这里可以下载�
 
 Zotero提供了一键迁移Mendeley文献库的功能，只需要点击Zotero的菜单栏中的`File`->`Import`->`Mendeley Reference Manager`即可，登录Mendeley账号就可迁移。
 
-![import mendeley](/figures/2024-01-26-zotero-sync-1.png)
+![import mendeley](/figures/posts/2024-01-26-zotero-sync-1.png)
 
 ## Zotero同步设置
 
@@ -35,7 +35,7 @@ Zotero提供了一键迁移Mendeley文献库的功能，只需要点击Zotero的
 
 如果Mendeley导入的文献库超过了300MB, 这时候点击右上角的同步按钮，会有一个警告，提示由于超出容量，无法完全同步。来到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，可以看到容量使用情况。
 
-![Zotero Storage](/figures/2024-01-26-zotero-sync-2.jpg)
+![Zotero Storage](/figures/posts/2024-01-26-zotero-sync-2.jpg)
 
 官网提供容量升级方案，但是需要额外付费。同时，Zotero也提供了其他的同步方案，这点还是非常良心的。在这个页面: [https://www.zotero.org/support/sync#alternative_syncing_solutions](https://www.zotero.org/support/sync#alternative_syncing_solutions) 可以看到Zotero提供的其他同步方案。比如最简单的方式是：
 
@@ -49,13 +49,13 @@ Zotero提供了一键迁移Mendeley文献库的功能，只需要点击Zotero的
 
 ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)，在这里可以下载到ZotFile的安装包。下载后点击Zotero菜单中的`Tools`->`Add-ons`->`Install Add-on From File...`，选择下载的ZotFile安装包即可。如下图所示：
 
-![install ZotFile](/figures/2024-01-26-zotero-sync-3.png)
+![install ZotFile](/figures/posts/2024-01-26-zotero-sync-3.png)
 
 ## 设置ZotFile
 
 安装完ZotFile后，点击Zotero菜单中的`Tools`->`ZotFile Preferences`，打开ZotFile的设置界面。如下图所示：
 
-![ZotFile Preferences](/figures/2024-01-26-zotero-sync-4.png)
+![ZotFile Preferences](/figures/posts/2024-01-26-zotero-sync-4.png)
 
 在`General Settings`中，设置`Source Folder for Attaching New Files`为你的下载文件夹，如`C:\Users\username\Downloads`，这一步是为了方便以后将下载的文献PDF文件转移到云盘文件夹中。这样，如果你选中一篇文献，右键并选择`attach new file`，ZotFile会自动将该文献的PDF文件从下载文件夹转移到云盘文件夹中，并且自动设置链接指向云盘文件夹中的文件。
 
@@ -69,7 +69,7 @@ ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)�
 
 在Zotero中，点击`Edit`->`Preferences`->`Advanced`->`Files and Folders`，将`Linked Attachment Base Directory`设置为你的云盘文件夹，这里是`C:\Users\username\OneDrive\Zotero`。如下图所示：
 
-![Zotero Preferences](/figures/2024-01-26-zotero-sync-5.png)
+![Zotero Preferences](/figures/posts/2024-01-26-zotero-sync-5.png)
 
 这一步设置的目的是因为在不同的电脑上，云盘文件夹的路径可能不同，比如在Windows上可能是`C:\Users\username\OneDrive\Zotero`，在Mac上可能是`/Users/username/OneDrive/Zotero`，这样设置后，Zotero就可以找到这个云盘目录作为Base Directory，然后在Base Directory下找到文献附件。
 
