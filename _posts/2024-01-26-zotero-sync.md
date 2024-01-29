@@ -75,7 +75,7 @@ ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)�
 
 ## Purge Storage in My Library
 
-完成上述步骤后，理论上Zotero的文献附件应该全部转移到了云盘中，但如果点击右上角的同步按钮，还是会有警告。这是因为Zotero的服务器上还有一些文献附件，需要手动删除（这可能是一个bug）。这时需要到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，点击`Purge Storage in My Library`。然后再回到Zotero客户端，点击`Edit`->`Preferences`->`Sync`，点击`Reset`，并选择`Replace Online Library`。这时候再点击右上角的同步按钮，就不会有警告了。
+完成上述步骤后，理论上Zotero的文献附件应该全部转移到了云盘中，但如果点击右上角的同步按钮，还是会有警告。这是因为Zotero的服务器上还有一些文献附件，需要手动删除（这可能是一个bug）。这时需要到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，点击`Purge Storage in My Library`。然后再回到Zotero客户端，点击`Edit`->`Preferences`->`Sync`，点击`Reset`，并选择`Replace Online Library`。这时候再点击右上角的同步按钮，就不会有警告了。**注意：这一步请小心操作，为防止丢失数据库，最好先对数据库进行备份。也就是将`C:\Users\username\Zotero`（Windows）或者`/Users/username/Zotero`（Mac）文件夹复制一份到其他地方。**
 
 ## 在其他电脑上同步
 
