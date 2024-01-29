@@ -1,5 +1,5 @@
 ---
-title: "Zetero使用非官方云存储同步文献库"
+title: "Zotero使用非官方云存储同步文献库"
 date: 2024-01-26
 permalink: /posts/2024-01-26-zotero-sync/
 collection: posts
