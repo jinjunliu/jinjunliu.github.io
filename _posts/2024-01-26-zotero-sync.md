@@ -63,7 +63,7 @@ ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)�
 
 ## 转移文献附件
 
-这时候，已经在文献库中的文献附件还没有转移到云盘的Zotero文件夹中，首次转移需要手动进行。在Zotero点击左侧的My Library，按`ctrl+A`全选文献，然后点击右键，选择`Manage Attachments`->`Rename and Move`，等待几分钟，所有的文献附件就会转移到云盘的Zotero文件夹（这里是`C:\Users\username\OneDrive\Zotero`）中了。OneDrive会自动进行同步。
+这时候，已经在文献库中的文献附件还没有转移到云盘的Zotero文件夹中，首次转移需要手动进行。在Zotero点击左侧的My Library，按`ctrl+A`全选文献，然后点击右键，选择`Manage Attachments`->`Rename and Move`，等待几分钟，所有的文献附件就会转移到云盘的Zotero文件夹（这里是`C:\Users\username\OneDrive\Zotero`）中了。并且还根据统一规则重新命名了附件（重命名规则也可以在ZotFile的设置中设置，这里我没有改动）。
 
 ## 设置Zotero的附件文件夹
 
