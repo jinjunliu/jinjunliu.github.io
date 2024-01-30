@@ -9,6 +9,8 @@ tags:
   - OneDrive
 ---
 
+本文介绍如何使用非官方的云存储（比如OneDrive）来同步Zotero文献库。<br/><img src='/figures/posts/head-pics/2024-01-26-zotero-sync-DALLE-3.png' width=500>
+
 今天将文献管理软件从Mendeley迁移到了Zotero。主要原因有几个：
 
 - 原来的Mendeley Desktop已经不再更新，新版的Mendeley Reference Manager客户端就是一个完全基于云端的浏览器套壳，打开文档有加载时间，使用不顺滑；
@@ -16,8 +18,6 @@ tags:
 - Zotero是开源软件，更新频率高，社区活跃。
 
 Zotero很好，但是Zotero自己服务器的同步功能对于免费用户只有300MB的存储空间，如果有大量的文献，这个空间很快就会被占满。需要同步文献库的原因是，如果有两台电脑，我需要在两台电脑上都能够使用Zotero并且保持一致。并且如果在以后换电脑后，我也希望能够快速的将文献库同步到新的电脑上。
-
-本文介绍如何使用非官方的云存储来同步Zotero文献库。
 
 ## 下载安装Zotero
 
