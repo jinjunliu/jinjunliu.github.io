@@ -16,5 +16,7 @@ Contact: jjliu [at] tamu [dot] edu
 
 News
 ======
+* 2024-05-07: I had my first oral presentation at the [36th Conference on Hurricanes and Tropical Meteorology](https://www.ametsoc.org/index.cfm/ams/meetings-events/ams-meetings/36th-conference-on-hurricanes-and-tropical-meteorology/).
+* 2024-05-01: I passed my preliminary exam.
 * 2018-05: I passed my PhD qualifying exam.
 * 2017-08: I am starting my PhD at Texas A&M University.
