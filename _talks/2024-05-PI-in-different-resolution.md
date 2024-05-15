@@ -8,7 +8,7 @@ date: 2024-05-10
 location: "Long Beach, CA"
 ---
 
-[Link to the presentation page](https://ams.confex.com/ams/36Hurricanes/meetingapp.cgi/Paper/442582).
+[Link to the presentation page](https://ams.confex.com/ams/36Hurricanes/meetingapp.cgi/Paper/442582)
 
 ## Abstract
 
