@@ -8,7 +8,7 @@ date: 2023-12-10
 location: "San Francisco, CA"
 ---
 
-This work was presented in the 2023 AGU Fall Meeting in San Francisco, CA.
+[eLightning Poster link](https://agu23.ipostersessions.com/default.aspx?s=40-34-77-EB-42-49-FC-BE-CE-37-EF-B0-DA-FA-D9-7E&guestview=true)
 
 ## Abstract
 
