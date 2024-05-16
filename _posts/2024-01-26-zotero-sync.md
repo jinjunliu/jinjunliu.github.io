@@ -1,5 +1,5 @@
 ---
-title: "Zotero使用非官方云存储同步文献库"
+title: "Using Unofficial Cloud Storage to Sync Zotero Library"
 date: 2024-01-26
 permalink: /posts/2024-01-26-zotero-sync/
 collection: posts
@@ -9,74 +9,78 @@ tags:
   - OneDrive
 ---
 
-本文介绍如何使用非官方的云存储（比如OneDrive）来同步Zotero文献库。<br/><img src='/figures/posts/head-pics/2024-01-26-zotero-sync-DALLE-3.png' width=500>
+This article explains how to use unofficial cloud storage (such as OneDrive) to sync the Zotero library. <br/><img src='/figures/posts/head-pics/2024-01-26-zotero-sync-DALLE-3.png' width=500>
 
-今天将文献管理软件从Mendeley迁移到了Zotero。主要原因有几个：
+Today, I migrated my reference management software from Mendeley to Zotero. There are several main reasons:
 
-- 原来的Mendeley Desktop已经不再更新，新版的Mendeley Reference Manager客户端就是一个完全基于云端的浏览器套壳，打开文档有加载时间，使用不顺滑；
-- 导入文献的浏览器插件Mendeley Web Importer很不好用，很慢并且经常导入失败；
-- Zotero是开源软件，更新频率高，社区活跃。
+- The old Mendeley Desktop is no longer updated, and the new Mendeley Reference Manager client is entirely cloud-based, leading to loading times and unsmooth usage;
+- The browser plugin Mendeley Web Importer for importing references is not user-friendly, very slow, and often fails to import;
+- Zotero is open-source software, updated frequently, with an active community.
 
-Zotero很好，但是Zotero自己服务器的同步功能对于免费用户只有300MB的存储空间，如果有大量的文献，这个空间很快就会被占满。需要同步文献库的原因是，如果有两台电脑，我需要在两台电脑上都能够使用Zotero并且保持一致。并且如果在以后换电脑后，我也希望能够快速的将文献库同步到新的电脑上。
+Zotero is great, but the sync function on Zotero's own server only offers 300MB of storage space for free users, which is quickly filled up if you have a lot of references. The reason for needing to sync the library is that if you have two computers, you need to use Zotero on both and keep them consistent. Also, if you change computers in the future, you would like to quickly sync the library to the new computer.
 
-## 下载安装Zotero
+## Download and Install Zotero
 
-Zotero的官网是[zotero.org](https://www.zotero.org/)，在这里可以下载到Zotero的安装包，这里不再赘述。
+The official Zotero website is [zotero.org](https://www.zotero.org/), where you can download the Zotero installation package. No need to elaborate further here.
 
-## 迁移Mendeley文献库至Zotero
+## Migrate Mendeley Library to Zotero
 
-Zotero提供了一键迁移Mendeley文献库的功能，只需要点击Zotero的菜单栏中的`File`->`Import`->`Mendeley Reference Manager`即可，登录Mendeley账号就可迁移。
+Zotero provides a one-click migration function for the Mendeley library. Just click `File` -> `Import` -> `Mendeley Reference Manager` in Zotero's menu, log in to your Mendeley account, and the migration will start.
 
 ![import mendeley](/figures/posts/2024-01-26-zotero-sync-1.png)
 
-## Zotero同步设置
+## Zotero Sync Settings
 
-首先需要注册并登录Zotero账号，去官网注册账号，然后点击工具栏Edit->Preferences->Sync，输入账号密码即可。
+First, register and log in to a Zotero account by visiting the official website. Then click `Edit` -> `Preferences` -> `Sync` in the toolbar and enter your account credentials.
 
-如果Mendeley导入的文献库超过了300MB, 这时候点击右上角的同步按钮，会有一个警告，提示由于超出容量，无法完全同步。来到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，可以看到容量使用情况。
+If the Mendeley imported library exceeds 300MB, clicking the sync button in the upper right corner will show a warning that synchronization cannot be completed due to exceeding capacity. Visit the [Zotero Storage](https://www.zotero.org/settings/storage) page to see the storage usage.
 
 ![Zotero Storage](/figures/posts/2024-01-26-zotero-sync-2.jpg)
 
-官网提供容量升级方案，但是需要额外付费。同时，Zotero也提供了其他的同步方案，这点还是非常良心的。在这个页面: [https://www.zotero.org/support/sync#alternative_syncing_solutions](https://www.zotero.org/support/sync#alternative_syncing_solutions) 可以看到Zotero提供的其他同步方案。比如最简单的方式是：
+The official website offers storage upgrade plans, but they require an additional fee. At the same time, Zotero also provides other sync solutions, which is very considerate. On this page: [https://www.zotero.org/support/sync#alternative_syncing_solutions](https://www.zotero.org/support/sync#alternative_syncing_solutions), you can find other sync solutions provided by Zotero. For example, the simplest method is:
 
 > The easiest method is to use linked files, rather than stored copies of files, with only your attachment files in the externally synced folder. The ZotFile plugin can make this simple by automatically moving attachment files to a designated folder as you import them. You should also set up Zotero's Linked Attachment Base Directory feature to point to the same folder so that Zotero can find your files on each computer, even if the path to the cloud storage folder differs.
 
-也就是用ZotFile插件，将附件文件（也就是文献的PDF文件）转移到一个云盘在本地的文件夹，该文件夹便会使用云盘自动进行同步。然后ZotFile会自动设置链接指向这些外部文件，这样便实现了文献库元数据（例如文献的标题，作者，DOI等）和附件的分离，元数据存储在Zotero服务器上，附件存储在云盘上。元数据的大小远远小于附件的大小，使用Zotero服务器是完全够用的。
+This means using the ZotFile plugin to transfer attachment files (i.e., the PDF files of the references) to a local folder of a cloud drive, which will be automatically synced by the cloud drive. ZotFile will automatically set links to these external files, thus achieving the separation of metadata (such as the title, author, DOI of the reference) and attachments. Metadata is stored on Zotero's server, while attachments are stored on the cloud drive. The size of metadata is much smaller than attachments, so using Zotero's server is entirely sufficient.
 
-这里我使用的是OneDrive来同步附件，因为我已经和人合租了Office 365 Family，OneDrive的存储空间是1TB，足够使用了。如果你使用的是其他的云存储，比如iCloud，Google Drive，Dropbox等，方法也是一样的。
+I use OneDrive to sync attachments because I have co-subscribed to Office 365 Family, providing 1TB of OneDrive storage, which is sufficient. If you use other cloud storage like iCloud, Google Drive, Dropbox, etc., the method is the same.
 
-## 下载安装ZotFile
+## Download and Install ZotFile
 
-ZotFile是Zotero的一个插件，官网是[zotfile.com](https://zotfile.com/)，在这里可以下载到ZotFile的安装包。下载后点击Zotero菜单中的`Tools`->`Add-ons`->`Install Add-on From File...`，选择下载的ZotFile安装包即可。如下图所示：
+ZotFile is a plugin for Zotero. Its official website is [zotfile.com](https://zotfile.com/), where you can download the ZotFile installation package. After downloading, click `Tools` -> `Add-ons` -> `Install Add-on From File...` in Zotero's menu and select the downloaded ZotFile package. As shown below:
 
 ![install ZotFile](/figures/posts/2024-01-26-zotero-sync-3.png)
 
-## 设置ZotFile
+## Set Up ZotFile
 
-安装完ZotFile后，点击Zotero菜单中的`Tools`->`ZotFile Preferences`，打开ZotFile的设置界面。如下图所示：
+After installing ZotFile, click `Tools` -> `ZotFile Preferences` in Zotero's menu to open the ZotFile settings interface. As shown below:
 
 ![ZotFile Preferences](/figures/posts/2024-01-26-zotero-sync-4.png)
 
-在`General Settings`中，设置`Source Folder for Attaching New Files`为你的下载文件夹，如`C:\Users\username\Downloads`，这一步是为了方便以后将下载的文献PDF文件转移到云盘文件夹中。这样，如果你选中一篇文献，右键并选择`attach new file`，ZotFile会自动将该文献的PDF文件从下载文件夹转移到云盘文件夹中，并且自动设置链接指向云盘文件夹中的文件。
+In `General Settings`, set `Source Folder for Attaching New Files` to your download folder, such as `C:\Users\username\Downloads`. This step makes it convenient to transfer downloaded reference PDF files to the cloud drive folder. Thus, if you select a reference, right-click, and choose `attach new file`, ZotFile will automatically transfer the reference's PDF file from the download folder to the cloud drive folder and set the link to the file in the cloud drive folder.
 
-然后设置`Location of Files`为你的云盘文件夹，这里我设置为`C:\Users\username\OneDrive\Zotero`，其中`username`是Windows用户名。`Zotero`文件夹是我在OneDrive中新建的，用于存储文献附件。如果是Mac，目录结构应该是类似`/Users/username/OneDrive/Zotero`。
+Next, set `Location of Files` to your cloud drive folder. I set it to `C:\Users\username\OneDrive\Zotero`, where `username` is the Windows username. The `Zotero` folder is newly created in OneDrive for storing reference attachments. On Mac, the directory structure should be similar to `/Users/username/OneDrive/Zotero`.
 
-## 转移文献附件
+## Transfer Reference Attachments
 
-这时候，已经在文献库中的文献附件还没有转移到云盘的Zotero文件夹中，首次转移需要手动进行。在Zotero点击左侧的My Library，按`ctrl+A`（Mac下按`command+A`）全选文献，然后点击右键，选择`Manage Attachments`->`Rename and Move`，等待几分钟，所有的文献附件就会转移到云盘的Zotero文件夹（这里是`C:\Users\username\OneDrive\Zotero`）中了。并且还根据统一规则重新命名了附件（重命名规则也可以在ZotFile的设置中设置，这里我没有改动），看上去非常整洁。
+At this point, the attachments of references in the library are not yet transferred to the Zotero folder in the cloud drive. The initial transfer needs to be done manually. In Zotero, click `My Library` on the left, press `ctrl+A` (or `command+A` on Mac) to select all references, then right-click, select `Manage Attachments` -> `Rename and Move`, and wait a few minutes. All reference attachments will be transferred to the Zotero folder in the cloud drive (here `C:\Users\username\OneDrive\Zotero`) and renamed according to a unified rule (the renaming rule can also be set in ZotFile settings, but I didn't change it), making it look very tidy.
 
-## 设置Zotero的附件文件夹
+## Set Zotero's Attachment Folder
 
-在Zotero中，点击`Edit`->`Preferences`->`Advanced`->`Files and Folders`，将`Linked Attachment Base Directory`设置为你的云盘文件夹，这里是`C:\Users\username\OneDrive\Zotero`。如下图所示：
+In Zotero, click `Edit` -> `Preferences` -> `Advanced` -> `Files and Folders`, and set `Linked Attachment Base Directory` to your cloud drive folder, here `C:\Users\username\OneDrive\Zotero`. As shown below:
 
 ![Zotero Preferences](/figures/posts/2024-01-26-zotero-sync-5.png)
 
-这一步设置的目的是因为在不同的电脑上，云盘文件夹的路径可能不同，比如在Windows上可能是`C:\Users\username\OneDrive\Zotero`，在Mac上可能是`/Users/username/OneDrive/Zotero`，这样设置后，Zotero就可以找到这个云盘目录作为Base Directory，然后在Base Directory下找到文献附件。
+This step is essential because the cloud drive folder path may differ on different computers. For example, on Windows, it might be `C:\Users\username\OneDrive\Zotero`, while on Mac, it could be `/Users/username/OneDrive/Zotero`. With this setting, Zotero can find the cloud drive directory as the Base Directory and then locate the reference attachments within the Base Directory.
 
 ## Purge Storage in My Library
 
-完成上述步骤后，理论上Zotero的文献附件应该全部转移到了云盘中，但如果点击右上角的同步按钮，还是会有警告。这是因为Zotero的服务器上还有一些文献附件，需要手动删除（这可能是一个bug）。这时需要到[Zotero Storage](https://www.zotero.org/settings/storage)的页面，点击`Purge Storage in My Library`。然后再回到Zotero客户端，点击`Edit`->`Preferences`->`Sync`，点击`Reset`，并选择`Replace Online Library`。这时候再点击右上角的同步按钮，就不会有警告了。**注意：这一步请小心操作，为防止丢失数据库，最好先对数据库进行备份。也就是将`C:\Users\username\Zotero`（Windows）或者`/Users/username/Zotero`（Mac）文件夹复制一份到其他地方。**
+After completing the above steps, theoretically, all Zotero reference attachments should have been transferred to the cloud drive. However, if you click the sync button in the upper right corner, there might still be a warning. This is because some reference attachments remain on Zotero's server and need to be deleted manually (this might be a bug). Visit the [Zotero Storage](https://www.zotero.org/settings/storage) page and click `Purge Storage in My Library`. Then, return to the Zotero client, click `Edit` -> `Preferences` -> `Sync`, click `Reset`, and choose `Replace Online Library`. After that, click the sync button in the upper right corner, and there will be no warning. **Note: Be careful with this step. To prevent database loss, it's best to back up the database first. That is, copy the `C:\Users\username\Zotero` (Windows) or `/Users/username/Zotero` (Mac) folder to another location.**
 
-## 在其他电脑上同步
+## Sync on Other Computers
 
-以上步骤完成后，Zotero就实现了完全的云同步。在其他电脑上，只需要安装Zotero和ZotFile，登录Zotero账号，同样设置一下ZotFile和`Linked Attachment Base Directory`，然后点击右上角的同步按钮，就可以同步文献库了。
+Once the above steps are completed, Zotero will have full cloud sync functionality. On other computers, simply install Zotero and ZotFile, log in to your Zotero account, set up ZotFile and `Linked Attachment Base Directory` similarly, then click the sync button in the upper right corner to sync the library.
+
+## Note
+
+This post was originally written in Chinese, and the English version is translated by ChatGPT.
