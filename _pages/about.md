@@ -12,7 +12,7 @@ I am a PhD student in the [Department of Atmospheric Sciences](https://atmo.tamu
 
 Contact: jjliu [at] tamu [dot] edu
 
-**Note**: This website is still under construction.
+I am seeking a full-time job in weather, climate, machine learning, data science, or software engineering to leverage academic expertise and technical skills to pursue meaningful solutions. Feel free to contact me if you have any opportunities!
 
 News
 ======
