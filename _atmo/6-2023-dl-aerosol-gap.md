@@ -4,10 +4,10 @@ excerpt: "A ConvLSTM model for filling aerosol data gaps in the presence of clou
 collection: atmo
 ---
 
-I am currently working on a project to fill missing aerosol data using a ConvLSTM model. This work will be presenting at the [2024 American Meteorological Society Annual Meeting](https://annual.ametsoc.org/index.cfm/2024/) in Baltimore, Maryland. The project is still in progress. The following is a brief introduction to the project.
+This work was presented at the [2024 American Meteorological Society Annual Meeting](https://annual.ametsoc.org/index.cfm/2024/) in Baltimore, Maryland.
 
-AMS annual meeting abstract
-===========================
+Abstract
+========
 
 Aerosol optical depth (AOD) serves as a critical observable for atmospheric particles, significantly informing our understanding of climate change, radiation balance, and air quality dynamics. Satellite imaging is the predominant method for large-scale AOD analysis. However, the acquisition of comprehensive AOD datasets is often hampered by clouds in these images, resulting in notable data gaps. 
  
