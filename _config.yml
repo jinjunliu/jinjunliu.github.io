@@ -190,23 +190,23 @@ collections:
   atmo:
     output: true
     permalink: /:collection/:path/
-  posts:
-    output: true
-    permalink: /:collection/:path/
+  # posts:
+  #   output: true
+  #   permalink: /:collection/:path/
 
 # Defaults
 defaults:
   # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: false
+  #     comments: false
+  #     share: false
+  #     related: false
   # _pages
   - scope:
       path: ""
