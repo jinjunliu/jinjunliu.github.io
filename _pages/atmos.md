@@ -7,7 +7,9 @@ author_profile: true
 
 {% include base_path %}
 
-<p style="text-align:justify">Alongside my primary focus on atmospheric sciences, I have a keen interest in computer science, with a particular passion for Machine Learning. My journey through the <a href="https://omscs.gatech.edu/home">OMSCS program at Georgia Tech</a> has led me to complete a series of impactful projects. I firmly believe that acquiring expertise in programming skills and cutting-edge technologies in Machine Learning, and applying them to my future research, will enable us to develop innovative solutions to address the pressing challenges posed by climate change.</p>
+<p style="text-align:justify">
+I am a Ph.D. candidate in the Department of Atmospheric Sciences at Texas A\&M University, where I work under the guidance of Dr. Robert Korty. My research encompasses the development and application of high-resolution climate models to study the impact of climate change on tropical cyclones. I have focused on several key areas, including the rapid intensification of tropical cyclones in various paleo-climates, and the analysis of large-scale environmental conditions that influence tropical cyclone formation. My work employs a combination of deep learning techniques, numerical simulations, and data analysis to enhance our understanding of atmospheric processes and improve the accuracy of climate models.
+</p>
 
 {% for post in site.atmo reversed %}
   {% include archive-single.html %}
