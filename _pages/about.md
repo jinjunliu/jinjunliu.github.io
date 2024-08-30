@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the [Department of Atmospheric Sciences](https://atmo.tamu.edu/) at the [Texas A&M University](https://www.tamu.edu/). I work on tropical cyclones and climate change. My supervisor is [Prof. Robert Korty](https://atmo.tamu.edu/people/profiles/faculty/kortyrobert.html).
+I am a PhD student in the [Department of Atmospheric Sciences](https://artsci.tamu.edu/atmos-science/index.html) at the [Texas A&M University](https://www.tamu.edu/). I work on tropical cyclones and climate change. My supervisor is [Prof. Robert Korty](https://artsci.tamu.edu/atmos-science/contact/profiles/robert-korty.html).
 
 Contact: jjliu [at] tamu [dot] edu
 
