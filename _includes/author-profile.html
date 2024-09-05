@@ -123,6 +123,10 @@
         {% if author.blog %}
             <li><a href="{{ author.blog }}"><i class="fas fa-fw fa-rss" aria-hidden="true"></i> Blog</a></li>
         {% endif %}
+        <!-- author.memos -->
+        {% if author.memos %}
+            <li><a href="{{ author.memos }}"><i class="fas fa-fw fa-book" aria-hidden="true"></i> Thoughts</a></li>
+        {% endif %}
     </ul>
   </div>
 </div>
